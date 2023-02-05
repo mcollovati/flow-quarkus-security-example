@@ -20,7 +20,7 @@
 
         <vaadin.version>23.3.5</vaadin.version>
 
-        <quarkus.version>2.7.4.Final</quarkus.version>
+        <quarkus.version>2.16.0.Final</quarkus.version>
         <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
     </properties>
 
@@ -105,6 +105,11 @@
             <artifactId>vaadin-jandex</artifactId>
         </dependency>
         -->
+
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-elytron-security-properties-file</artifactId>
+        </dependency>
 
         <!-- Quarkus always pulls in slf4j-jboss-logmanager into target/lib; don't use slf4j-simple -->
         <dependency>
