@@ -111,6 +111,11 @@
             <artifactId>quarkus-elytron-security-properties-file</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-oidc</artifactId>
+        </dependency>
+
         <!-- Quarkus always pulls in slf4j-jboss-logmanager into target/lib; don't use slf4j-simple -->
         <dependency>
             <groupId>org.jboss.slf4j</groupId>
